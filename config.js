@@ -5,13 +5,13 @@ import fs from "fs";
 import fetch from "node-fetch";
 import axios from "axios";
 
-global.owner = [["2348098309204", "Danny", true], [""]]; //Number of owners
+global.owner = [["2348098309204", "Danny", true], ["2347080780065","Storm",true]]; //Number of owners
 
-global.pairingNumber = "2348098309204"; //put your bot number here
+global.pairingNumber = "2347080780065"; //put your bot number here
 
-global.mods = ["2348098309204", "32460248586"];
-global.prems = ["2348098309204", "32460248586", "919398758484"];
-global.allowed = ["2348098309204", "32460248586", "19152999993"];
+global.mods = ["2347080780065", "32460248586"];
+global.prems = ["2347080780065", "32460248586", "919398758484"];
+global.allowed = ["2347080780065", "32460248586", "19152999993"];
 global.keysZens = ["c2459db922", "37CC845916", "6fb0eff124"];
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
 global.keysxteammm = [
@@ -67,7 +67,7 @@ global.fgyt = "";
 global.fgpyp = "";
 global.fglog = "https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg";
 global.thumb = fs.readFileSync("./Assets/Gurulogo.jpg");
-global.ownernum = "2348098309204";
+global.ownernum = "2347080780065";
 
 global.wait = "*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*";
 global.rwait = "⌛";
